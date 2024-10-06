@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  width: 60vw;
+  height: 60vh;
+  border-radius: 10px;
+}
+
+.column {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 33.33%;
+}
+.orange {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.cyan {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.dark-cyan {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+p {
+  color: hsla(0, 10%, 84%, 0.75);
+}
+h2 {
+  font-family: "Lexend Deca", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.btn {
+  padding: 15px;
+  border-radius: 30px;
+  color: hsl(184, 100%, 22%);
+  background-color: white;
+}
+
+button:hover {
+  color: hsl(31, 77%, 52%);
+}
